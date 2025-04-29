@@ -1,52 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advance Avant LLC - Connect With Me</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advance Avant LLC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c8102e;
+      color: white;
+      padding: 1rem 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .buttons, .social-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background-color: #000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .button img {
+      margin-right: 0.5rem;
+      height: 20px;
+    }
+
+    .qr {
+      margin-top: 2rem;
+    }
+
+    .qr img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #f0f0f0;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Advance Avant LLC</h1>
+    <p class="tagline">For All Your Travel Needs</p>
+  </header>
 
-  <div class="container">
-    <h1>Connect With Me</h1>
-
+  <section>
+    <h2>Connect With Me</h2>
     <div class="buttons">
-      <a class="button" href="https://calendly.com/blavant756" target="_blank">
+      <a href="https://calendly.com/brendaavant" class="button" target="_blank">
         <img src="calendar-icon.png" alt="Calendar Icon"> Book a Discovery Call
       </a>
-
-      <a class="button" href="https://brendaavant.inteletravel.com/booktravel.cfm" target="_blank">
+      <a href="https://www.brendaavant.inteletravel.com" class="button" target="_blank">
         <img src="globe-icon.png" alt="Globe Icon"> Visit Booking Site
       </a>
     </div>
 
     <div class="social-icons">
-      <a href="https://www.facebook.com/brenda.avant.18/" target="_blank">
-        <img src="facebook-icon.png" alt="Facebook">
+      <a href="https://www.facebook.com/Brenda.Avant.18" target="_blank">
+        <img src="facebook-icon.png" alt="Facebook Icon" width="40" />
       </a>
-      <a href="https://www.instagram.com/brenda.avant.18/" target="_blank">
-        <img src="instagram-icon.png" alt="Instagram">
+      <a href="https://www.instagram.com/brenda.avant.18" target="_blank">
+        <img src="instagram-icon.png" alt="Instagram Icon" width="40" />
       </a>
       <a href="https://www.linkedin.com/in/Brenda-Avant-051164140/" target="_blank">
-        <img src="linkedin-icon.png" alt="LinkedIn">
+        <img src="linkedin-icon.png" alt="LinkedIn Icon" width="40" />
       </a>
       <a href="https://www.tiktok.com/@brendaavant42" target="_blank">
-        <img src="tiktok-icon.png" alt="TikTok">
+        <img src="tiktok-icon.png" alt="TikTok Icon" width="40" />
       </a>
     </div>
+  </section>
 
-    <div class="qr">
-      <h2>Scan to Book</h2>
-      <img src="your-qr-code.png" alt="Scan to Book">
-    </div>
-
-    <footer>
-      <p>Advance Avant LLC</p>
-    </footer>
+  <div class="qr">
+    <h2>Scan to Book</h2>
+    <img src="your-qr-code.png" alt="Scan to Book" />
   </div>
 
-<!-- Trigger redeploy -->
-
+  <footer>
+    <p>Advance Avant LLC</p>
+  </footer>
 </body>
 </html>
