@@ -1,33 +1,108 @@
-<div class="connect-buttons">
-  <h2>Connect With Me</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advance Avant LLC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #000;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: darkred;
+    }
+    .button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    .socials {
+      margin-top: 20px;
+    }
+    .socials a {
+      margin: 0 10px;
+      display: inline-block;
+    }
+    .socials img {
+      width: 32px;
+      height: 32px;
+    }
+    .qr {
+      margin-top: 2rem;
+    }
+    .qr img {
+      width: 200px;
+      height: auto;
+      margin-top: 1rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Advance Avant LLC</h1>
 
-  <a class="btn" href="https://calendly.com/blavant756" target="_blank">
-    <img src="calendar-icon.png" alt="Calendar Icon" /> Book a Discovery Call
-  </a>
+    <a href="https://calendly.com/blavant756" class="button" target="_blank" aria-label="Book a Discovery Call">
+      <img src="calendar-icon.png" alt="Calendar Icon" />
+      Book a Discovery Call
+    </a>
 
-  <a class="btn" href="https://brendaavant.inteletravel.com/booktravel.cfm" target="_blank">
-    <img src="globe-icon.png" alt="Globe Icon" /> Visit Booking Site
-  </a>
-</div>
+    <a href="https://brendaavant.inteletravel.com/booktravel.cfm" class="button" target="_blank" aria-label="Visit Booking Site">
+      <img src="globe-icon.png" alt="Globe Icon" />
+      Visit Booking Site
+    </a>
 
-<div class="social-icons">
-  <a href="https://www.facebook.com/Brenda.Avant.18" target="_blank">
-    <img src="facebook-icon.png" alt="Facebook" />
-  </a>
-  <a href="https://www.instagram.com/brenda.avant.18" target="_blank">
-    <img src="instagram-icon.png" alt="Instagram" />
-  </a>
-  <a href="https://www.linkedin.com/in/Brenda-Avant-051164140/" target="_blank">
-    <img src="linkedin-icon.png" alt="LinkedIn" />
-  </a>
-  <a href="https://www.tiktok.com/@brendaavant42" target="_blank">
-    <img src="tiktok-icon.png" alt="TikTok" />
-  </a>
-</div>
+    <div class="socials" aria-label="Social Media Links">
+      <a href="https://www.facebook.com/Brenda.Avant.18" target="_blank" aria-label="Facebook">
+        <img src="facebook-icon.png" alt="Facebook Icon" />
+      </a>
+      <a href="https://www.instagram.com/brenda.avant.18" target="_blank" aria-label="Instagram">
+        <img src="instagram-icon.png" alt="Instagram Icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/Brenda-Avant-051164140" target="_blank" aria-label="LinkedIn">
+        <img src="linkedin-icon.png" alt="LinkedIn Icon" />
+      </a>
+      <a href="https://www.tiktok.com/@brendaavant42" target="_blank" aria-label="TikTok">
+        <img src="tiktok-icon.png" alt="TikTok Icon" />
+      </a>
+    </div>
 
-<div class="qr">
-  <h2>Scan to Book</h2>
-  <a href="https://brendaavant.inteletravel.com/booktravel.cfm" target="_blank">
-    <img src="your-qr-code.png" alt="Scan to Book via QR" />
-  </a>
-</div>
+    <div class="qr">
+      <h2>Scan to Book</h2>
+      <img src="your-qr-code.png" alt="QR Code to Booking Page" />
+    </div>
+
+    <footer>
+      <p>&copy; Advance Avant LLC</p>
+    </footer>
+  </div>
+</body>
+</html>
